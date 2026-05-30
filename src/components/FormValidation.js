@@ -35,7 +35,7 @@ function FormValidation(){
         mobile: ''
     })
 
-    const [errorObj, setErrorObj] = useState({});   // this is for error validation
+    const [errorObj, setErrorObj] = useState('');   // this is for error validation
 
     const validatorMethods = {
         name: (key,val) => {
@@ -131,7 +131,7 @@ validatorMethods[key](val);    // after optimizing onChange it is also changing 
 
     return<>
     <div className="form-container" >
-        <form action='#' method="POST" onSubmit={(e)=>{
+        <form action='https://www.google.com/submit-form' method="POST" onSubmit={(e)=>{
             e.preventDefault();
             console.log(formData);
             setFormData({    // to clean up the input field after submission

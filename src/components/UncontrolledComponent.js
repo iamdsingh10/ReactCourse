@@ -19,6 +19,7 @@ const inputRef = useRef(null);
         </form>
         <h2>My name is {name}</h2>
         <h2>My email is {inputRef.current && inputRef.current.value}</h2>
+        <button  onClick={()=>alert()} >Get Email</button>
     </div>
     </>
 }

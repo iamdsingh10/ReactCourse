@@ -17,6 +17,7 @@ import FormValidation from "./components/FormValidation";
 import ConditionalExample from "./components/ConditionalRender";
 import UncontrolledComponent from "./components/UncontrolledComponent";
 import FetchExample from "./components/FetchExample";
+import Greeting from "./components/Greeting";
 
 
 function App() {
@@ -120,6 +121,9 @@ return <>
 <hr/>
 <div style={{fontWeight: 'bold'}}>Fetching Example</div>
 <FetchExample/>
+
+<h1>React Part-2</h1>
+<Greeting/>
 </>
 }
 
